@@ -18,3 +18,4 @@ L'output del prezzo finale va messo fuori con massimo due cifre decimali, per in
     -Variabili
     -If else
     -Console
+    -Alert
