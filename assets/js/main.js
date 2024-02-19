@@ -14,13 +14,13 @@ console.log(price);
 let final_price;
 
 if (age < 18) {
-    final_price = (price * 0.8);
+    final_price = (price * 0.8).toFixed(2);
 }
 else if (age > 65) {
-    final_price = (price * 0.6);
+    final_price = (price * 0.6).toFixed(2);
 }
 else {
-    final_price = price;
+    final_price = price.toFixed(2);
 }
 
 console.log(final_price)
